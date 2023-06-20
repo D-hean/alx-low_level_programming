@@ -10,12 +10,12 @@ char j;
 while (i < 10)
 {
 j = 'a';
-while (j < = 'z')
+while (j <= 'z')
 {
 _putchar(j);
-j++
+j++;
 }
 }
 _putchar('\n');
-i++
+i++;
 }
