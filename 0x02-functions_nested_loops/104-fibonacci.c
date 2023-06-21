@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - fibonacci <3
- * Purpose - no hardcode
- * Return:  (Success)
- */
+* main - fibonacci <3
+*Purpose - no hardcode
+* Return:  (Success)
+*/
 int main(void)
 {
 unsigned long int i;
@@ -23,6 +23,7 @@ printf(", %lu", aft);
 aft += bef;
 bef = aft - bef;
 }
+
 bef1 = (bef / l);
 bef2 = (bef % l);
 aft1 = (aft / l);
@@ -38,21 +39,5 @@ aft2 = aft2 + bef2;
 bef2 = aft2 - bef2;
 }
 printf("\n");
-return (0);
-}
-
-for (i = 1; i <= 33; ++i)
-{
-if (j < 4000000 && (j % 2) == 0)
-{
-sum = sum + j;
-}
-next = j + k;
-j = k;
-k = next;
-}
-
-printf("%lu\n", sum);
-
 return (0);
 }
