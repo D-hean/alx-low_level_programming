@@ -12,13 +12,13 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	 return (real_sqrt(n, 0));
+	return (real_sqrt(n, 0));
 }
 	/**
 	 * real_sqrt- finds the sqrt of a given number
 	 * @n: input value
 	 * @i: square root
-	 * Return: reulting square root number
+	 * Return: resulting square root number
 	 */
 	int real_sqrt(int n, int i)
 	{
